@@ -1,0 +1,143 @@
+:root {
+  --primary-bg-color: #121212; /* Noir profond pour l'arrière-plan */
+  --secondary-bg-color: #1e1e1e; /* Noir un peu plus clair pour les sections */
+  --primary-text-color: #e0e0e0; /* Texte principal gris clair */
+  --secondary-text-color: #a0a0a0; /* Texte secondaire gris foncé */
+  --accent-color: #2196f3; /* Bleu vif pour les accents et les boutons */
+  --border-color: #333; /* Bordures sombres */
+  --hover-bg-color: #333333; /* Fond sombre pour les hover */
+  --hover-accent-color: #42a5f5; /* Bleu plus clair au survol */
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  background-color: var(--secondary-bg-color);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+input,
+button,
+textarea {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+input::placeholder {
+  color: var(--secondary-text-color);
+}
+
+button {
+  background-color: var(--accent-color);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--hover-accent-color);
+}
+
+.text-secondary {
+  color: var(--secondary-text-color);
+}
+
+.border {
+  border-color: var(--border-color);
+}
+
+.rounded-lg {
+  border-radius: 10px;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.text-blue-500 {
+  color: var(--accent-color);
+}
+
+.text-blue-500:hover {
+  color: var(--hover-accent-color);
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.bg-gray-100 {
+  background-color: var(--primary-bg-color);
+}
+
+.text-gray-800 {
+  color: var(--primary-text-color);
+}
+
+/* Accents et sections spécifiques */
+
+.header,
+.footer {
+  background-color: var(--secondary-bg-color);
+  color: var(--primary-text-color);
+  padding: 20px;
+  text-align: center;
+}
+
+.card {
+  background-color: var(--secondary-bg-color);
+  color: var(--primary-text-color);
+  border: 1px solid var(--border-color);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  border-color: var(--hover-bg-color);
+}
+
+.fa-heart {
+  color: red;
+}
+
+.fa-heart:hover {
+  transform: scale(1.1);
+}
+
+/* Notifications */
+.notification {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Pour la liste verticale */
+.list-item {
+  background-color: var(--secondary-bg-color);
+  border: 1px solid var(--border-color);
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.list-item:hover {
+  background-color: var(--hover-bg-color);
+}
+
+.video-component {
+  background-color: black;
+  border-radius: 8px;
+}
