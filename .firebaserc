@@ -1,5 +1,19 @@
 {
   "projects": {
     "default": "starviews"
-  }
+  },
+  "targets": {
+    "starviews": {
+      "hosting": {
+        "starviews": [
+          "starviews",
+          "starviews]"
+        ],
+        "starviews-firebaseapp": [
+          "starviews-firebaseapp"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

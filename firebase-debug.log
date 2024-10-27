@@ -1,0 +1,17 @@
+[debug] [2024-10-26T10:38:52.535Z] ----------------------------------------------------------------------
+[debug] [2024-10-26T10:38:52.581Z] Command:       /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/firebase target:apply hosting starviews-firebaseapp starviews-firebaseapp
+[debug] [2024-10-26T10:38:52.584Z] CLI Version:   13.23.0
+[debug] [2024-10-26T10:38:52.585Z] Platform:      android
+[debug] [2024-10-26T10:38:52.586Z] Node Version:  v20.17.0
+[debug] [2024-10-26T10:38:52.586Z] Time:          Sat Oct 26 2024 11:38:52 GMT+0100 (West Africa Standard Time)
+[debug] [2024-10-26T10:38:52.590Z] ----------------------------------------------------------------------
+[debug] 
+[info] ✔  Applied hosting target starviews-firebaseapp to starviews-firebaseapp 
+[info] 
+[info] Updated: starviews-firebaseapp (starviews-firebaseapp)
+[debug] [2024-10-26T10:39:03.684Z] Error: Timed out.
+    at Timeout._onTimeout (/data/data/com.termux/files/usr/lib/node_modules/firebase-tools/lib/utils.js:268:49)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+[error] 
+[error] Error: An unexpected error has occurred.
